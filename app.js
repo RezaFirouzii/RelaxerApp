@@ -8,7 +8,7 @@ const holdTime = totalTime / 5;
 breatheAnimation();
 
 function breatheAnimation() {
-    text.innerHTML = 'Breath!';
+    text.innerHTML = 'Breathe!';
     container.className = 'container grow';
 
     setTimeout(() => {
